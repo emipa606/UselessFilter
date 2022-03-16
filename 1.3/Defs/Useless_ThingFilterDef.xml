@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SpecialThingFilterDef>
+    <defName>UselessApparelFilter</defName>
+    <label>allow useless apparel</label>
+    <description>allow useless apparel</description>
+    <parentCategory>Apparel</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowUselessApparelFilter</saveKey>
+    <workerClass>UselessFilter.SpecialThingFilterWorker_UselessFilter</workerClass>
+  </SpecialThingFilterDef>
+  <SpecialThingFilterDef>
+    <defName>NonUselessApparelFilter</defName>
+    <label>allow non-useless apparel</label>
+    <description>allow non-useless apparel</description>
+    <parentCategory>Apparel</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowNonUselessApparelFilter</saveKey>
+    <workerClass>UselessFilter.SpecialThingFilterWorker_NonUselessFilter</workerClass>
+  </SpecialThingFilterDef>
+  <SpecialThingFilterDef>
+    <defName>UselessWeaponFilter</defName>
+    <label>allow useless weapons</label>
+    <description>allow useless apparel</description>
+    <parentCategory>Weapons</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowUselessWeaponFilter</saveKey>
+    <workerClass>UselessFilter.SpecialThingFilterWorker_UselessFilter</workerClass>
+  </SpecialThingFilterDef>
+  <SpecialThingFilterDef>
+    <defName>NonUselessWeaponFilter</defName>
+    <label>allow non-useless weapons</label>
+    <description>allow non-useless apparel</description>
+    <parentCategory>Weapons</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowNonUselessWeaponFilter</saveKey>
+    <workerClass>UselessFilter.SpecialThingFilterWorker_NonUselessFilter</workerClass>
+  </SpecialThingFilterDef>
+</Defs>

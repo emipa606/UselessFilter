@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UsFi.SettingsHeader.label>Definition of useless apparel and weapons</UsFi.SettingsHeader.label>
+  <UsFi.SettingsDescription.label>If ANY of these conditions are met, the item is considered useless.
+If NONE of these conditions are met, the item is considered non-useless.</UsFi.SettingsDescription.label>
+  <UsFi.Tainted.label>Tainted</UsFi.Tainted.label>
+  <UsFi.Clean.label>Clean</UsFi.Clean.label>
+  <UsFi.Biocoded.label>Biocoded</UsFi.Biocoded.label>
+  <UsFi.NonBiocoded.label>Non-Biocoded</UsFi.NonBiocoded.label>
+  <UsFi.HitPoints>HitPoints</UsFi.HitPoints>
+  <UsFi.Reset.label>Reset</UsFi.Reset.label>
+  <UsFi.Version.label>Installed mod-version: {0}</UsFi.Version.label>
+</LanguageData>
