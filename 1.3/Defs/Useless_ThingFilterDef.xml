@@ -2,7 +2,7 @@
 <Defs>
   <SpecialThingFilterDef>
     <defName>UselessApparelFilter</defName>
-    <label>allow useless apparel</label>
+    <label>Allow useless apparel</label>
     <description>allow useless apparel</description>
     <parentCategory>Apparel</parentCategory>
     <allowedByDefault>true</allowedByDefault>
@@ -11,7 +11,7 @@
   </SpecialThingFilterDef>
   <SpecialThingFilterDef>
     <defName>NonUselessApparelFilter</defName>
-    <label>allow non-useless apparel</label>
+    <label>Allow non-useless apparel</label>
     <description>allow non-useless apparel</description>
     <parentCategory>Apparel</parentCategory>
     <allowedByDefault>true</allowedByDefault>
@@ -20,8 +20,8 @@
   </SpecialThingFilterDef>
   <SpecialThingFilterDef>
     <defName>UselessWeaponFilter</defName>
-    <label>allow useless weapons</label>
-    <description>allow useless apparel</description>
+    <label>Allow useless weapons</label>
+    <description>allow useless weapons</description>
     <parentCategory>Weapons</parentCategory>
     <allowedByDefault>true</allowedByDefault>
     <saveKey>allowUselessWeaponFilter</saveKey>
@@ -29,8 +29,8 @@
   </SpecialThingFilterDef>
   <SpecialThingFilterDef>
     <defName>NonUselessWeaponFilter</defName>
-    <label>allow non-useless weapons</label>
-    <description>allow non-useless apparel</description>
+    <label>Allow non-useless weapons</label>
+    <description>allow non-useless weapons</description>
     <parentCategory>Weapons</parentCategory>
     <allowedByDefault>true</allowedByDefault>
     <saveKey>allowNonUselessWeaponFilter</saveKey>

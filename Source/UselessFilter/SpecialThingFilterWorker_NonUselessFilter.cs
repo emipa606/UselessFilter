@@ -11,6 +11,6 @@ public class SpecialThingFilterWorker_NonUselessFilter : SpecialThingFilterWorke
 
     public override bool CanEverMatch(ThingDef def)
     {
-        return !Main.IsUseless(def);
+        return def.IsApparel || def.IsWeapon;
     }
 }
