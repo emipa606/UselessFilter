@@ -13,8 +13,7 @@ public static class Main
             return true;
         }
 
-        QualityCategory p;
-        if (!thing.TryGetQuality(out p))
+        if (!thing.TryGetQuality(out var p))
         {
             p = QualityCategory.Normal;
         }
@@ -48,31 +47,18 @@ public static class Main
         }
 
 
-        if (thing.def.IsWeapon)
-        {
-            var biocoded = thing.TryGetComp<CompBladelinkWeapon>() == null && CompBiocodable.IsBiocoded(thing);
-
-            if (UselessFilterMod.instance.Settings.Biocoded && biocoded)
-            {
-                return true;
-            }
-
-            if (UselessFilterMod.instance.Settings.NonBiocoded && !biocoded)
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    public static bool IsUseless(ThingDef thingDef)
-    {
-        if (!thingDef.IsApparel && !thingDef.IsWeapon)
+        if (!thing.def.IsWeapon)
         {
             return false;
         }
 
-        return true;
+        var biocoded = thing.TryGetComp<CompBladelinkWeapon>() == null && CompBiocodable.IsBiocoded(thing);
+
+        if (UselessFilterMod.instance.Settings.Biocoded && biocoded)
+        {
+            return true;
+        }
+
+        return UselessFilterMod.instance.Settings.NonBiocoded && !biocoded;
     }
 }

@@ -23,6 +23,8 @@ If not, its non-useless.
 
 I created this mod mostly to simplify for myself, but hopefully someone else gets use out of it!
 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2810866437]Russian translation by proselyte223 
+
 ![Image](https://i.imgur.com/O0IIlYj.png)
 
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
@@ -40,5 +42,6 @@ https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
