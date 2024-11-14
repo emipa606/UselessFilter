@@ -1,5 +1,8 @@
 # Changelog for UselessFilter
 
+1.5.1 - Updated chinese translation by HawnHan
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

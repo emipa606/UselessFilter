@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <UsFi.SettingsHeader.label>Definition of useless apparel and weapons</UsFi.SettingsHeader.label>
   <UsFi.SettingsDescription.label>If ANY of these conditions are met, the item is considered useless.
