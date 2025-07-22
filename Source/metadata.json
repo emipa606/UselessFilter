@@ -2,11 +2,18 @@
   "Continued": false,
   "CanAdd": "0",
   "CanRemove": "0",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "FundingSet": true,
   "SearchTags": [
     " management",
     " filters"
-  ]
+  ],
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 8948,
+  "LinesOfXML": 1783,
+  "CodeBaseSize": 64,
+  "LastXmlCleaning": "2025-07-22T22:07:45.5482489+02:00"
 }

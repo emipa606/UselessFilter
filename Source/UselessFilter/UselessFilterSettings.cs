@@ -10,9 +10,9 @@ internal class UselessFilterSettings : ModSettings
 {
     public bool Biocoded = true;
     public bool Clean;
-    public FloatRange DurabilityRange = new FloatRange(0, 0.5f);
+    public FloatRange DurabilityRange = new(0, 0.5f);
     public bool NonBiocoded;
-    public QualityRange QualityRange = new QualityRange(QualityCategory.Awful, QualityCategory.Poor);
+    public QualityRange QualityRange = new(QualityCategory.Awful, QualityCategory.Poor);
     public bool Tainted = true;
 
     /// <summary>

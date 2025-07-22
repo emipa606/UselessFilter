@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Allow non-useless apparel -->
+  <NonUselessApparelFilter.label>Allow non-useless apparel</NonUselessApparelFilter.label>
+  <!-- EN: allow non-useless apparel -->
+  <NonUselessApparelFilter.description>allow non-useless apparel</NonUselessApparelFilter.description>
+  <!-- EN: Allow non-useless weapons -->
+  <NonUselessWeaponFilter.label>Allow non-useless weapons</NonUselessWeaponFilter.label>
+  <!-- EN: allow non-useless weapons -->
+  <NonUselessWeaponFilter.description>allow non-useless weapons</NonUselessWeaponFilter.description>
+  <!-- EN: Allow useless apparel -->
+  <UselessApparelFilter.label>Allow useless apparel</UselessApparelFilter.label>
+  <!-- EN: allow useless apparel -->
+  <UselessApparelFilter.description>allow useless apparel</UselessApparelFilter.description>
+  <!-- EN: Allow useless weapons -->
+  <UselessWeaponFilter.label>Allow useless weapons</UselessWeaponFilter.label>
+  <!-- EN: allow useless weapons -->
+  <UselessWeaponFilter.description>allow useless weapons</UselessWeaponFilter.description>
+</LanguageData>
