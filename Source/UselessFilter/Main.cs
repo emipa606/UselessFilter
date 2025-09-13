@@ -8,17 +8,19 @@ public static class Main
 {
     public static bool IsUseless(Thing thing)
     {
-        if (UselessFilterMod.Instance.Settings.DurabilityRange.Includes(thing.HitPoints / (float)thing.MaxHitPoints))
+        if (thing == null || thing.Destroyed)
+        {
+            return false;
+        }
+
+        if (thing.def.useHitPoints &&
+            UselessFilterMod.Instance.Settings.DurabilityRange.Includes(thing.HitPoints / (float)thing.MaxHitPoints))
         {
             return true;
         }
 
-        if (!thing.TryGetQuality(out var p))
-        {
-            p = QualityCategory.Normal;
-        }
-
-        if (UselessFilterMod.Instance.Settings.QualityRange.Includes(p))
+        if (thing.TryGetQuality(out var qualityCategory) &&
+            UselessFilterMod.Instance.Settings.QualityRange.Includes(qualityCategory))
         {
             return true;
         }
