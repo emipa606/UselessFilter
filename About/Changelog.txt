@@ -1,5 +1,8 @@
 # Changelog for UselessFilter
 
+1.6.2 - Updated russian translation
+
+
 1.6.1 - Nullcheck in case some mods tries to check nonexisting things
 
 
