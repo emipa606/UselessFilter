@@ -61,6 +61,6 @@ public static class Main
             return UselessFilterMod.Instance.Settings.NonBiocoded && !isBiocoded;
         }
 
-        return thing.TryGetComp<CompBiocodable>()?.CodedPawn.Faction == Faction.OfPlayerSilentFail;
+        return thing.TryGetComp<CompBiocodable>()?.CodedPawn?.Faction == Faction.OfPlayerSilentFail;
     }
 }
